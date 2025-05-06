@@ -30,5 +30,17 @@ namespace Github_Practice.Class
             Console.WriteLine(GetFullName());
             Console.WriteLine(Age);
         }
+
+        public bool IsAdult()
+        {
+            if (Age >= 18)
+            {
+                return true;
+            }
+            else 
+            { 
+                return false; 
+            }
+        }
     }
 }
