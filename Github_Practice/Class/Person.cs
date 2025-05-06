@@ -24,5 +24,11 @@ namespace Github_Practice.Class
             string fullName = FirstName + " " + LastName;
             return fullName;
         }
+
+        public void DisplayInfo()
+        {
+            Console.WriteLine(GetFullName());
+            Console.WriteLine(Age);
+        }
     }
 }
